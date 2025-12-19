@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Pemantauan Smart Stick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    📍 Web Pemantauan Lokasi Smart Stick
+  </div>
+
+  <!-- KONTEN UTAMA -->
+  <div class="main">
+
+    <!-- MAP -->
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps?q=-6.973245,107.630159&z=15&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0; border-radius:12px;"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- PANEL KANAN -->
+    <div class="panel">
+
+      <div class="card">
+        <h3>Informasi Lokasi</h3>
+        <p><b>Latitude:</b> -6.973245</p>
+        <p><b>Longitude:</b> 107.630159</p>
+        <p><b>Status GPS:</b> <span class="aktif">Aktif</span></p>
+        <p><b>Update:</b> 12:34 WIB</p>
+      </div>
+
+      <button class="btn">🔄 Refresh Lokasi</button>
+
+      <div class="card">
+        <h3>Identitas Tongkat</h3>
+        <p><b>ID:</b> Tongkat 01</p>
+        <p><b>Nama:</b> Test User</p>
+        <p><b>Tipe:</b> Smart Stick</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

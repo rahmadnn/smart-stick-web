@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(90deg, #3b6fd8, #5b9bff);
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* MAIN LAYOUT */
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* MAP */
+.map {
+  flex: 3;
+  height: 520px;
+  border-radius: 12px;
+  background: #ddd;
+}
+
+/* PANEL KANAN */
+.panel {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* STATUS */
+.aktif {
+  color: green;
+  font-weight: bold;
+}
+
+/* BUTTON */
+.btn {
+  background: #3b6fd8;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2f5bb5;
+}
